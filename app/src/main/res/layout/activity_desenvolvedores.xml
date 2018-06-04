@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/serenity"
+    tools:context=".DESENVOLVEDORES">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="99dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_marginEnd="109dp"
+        app:srcCompat="@drawable/quartz" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="99dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/brito"
+        android:layout_alignTop="@+id/imageView5"
+        app:srcCompat="@drawable/quartz" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="99dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView5"
+        app:srcCompat="@drawable/quartz" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="99dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_marginStart="79dp"
+        app:srcCompat="@drawable/quartz" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="99dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/quartz" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="181dp"
+        android:gravity="center_horizontal"
+        android:text="Finanças Brinsally surgiu no século XXI com o propósito de fornecer apoio financeiro para diversas ONGs responsáveis por idealizar projetos filantrópicos ao redor do mundo. Com o objetivo de manter-se sempre atual, nossa empresa busca agora atuar em plataformas digitais. Com o intuito de atingir esse objetivo, tomamos a iniciativa de desenvolver um aplicativo para Android que possibilita a aprendizagem e a prática de Libras (Linguagem Brasileira de Sinais) por meio da realização de atividades e leitura de conteúdos, com o intuito de possibilitar a inclusão de cidadãos que possuam deficiência auditiva." />
+
+    <TextView
+        android:id="@+id/emilly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="131dp"
+        android:layout_marginStart="42dp"
+        android:text="Emilly de Meneses Santos"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/samuel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/brito"
+        android:layout_alignTop="@+id/samuel"
+        android:text=" Samuel Sabino da Silva "
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/samuel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/emilly"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="78dp"
+        android:text="Paulini Reis P. Gonçalves"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/brito"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/emilly"
+        android:layout_marginEnd="42dp"
+        android:gravity="center_horizontal"
+        android:text="Matheus Brito Silva"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="CopyRight © 2018 Brinsally, Inc." />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="329dp"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:fontFamily="@font/campus_relief"
+        android:gravity="center_horizontal"
+        android:text="SAIBA QUEM SOMOS"
+        android:textSize="25sp" />
+
+</RelativeLayout>

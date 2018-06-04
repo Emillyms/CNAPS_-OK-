@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CNAPS</string>
+    <string name="dados">Dados Pessoais</string>
+    <string name="nome2">Nome</string>
+    <string name="senha2">Senha</string>
+    <string name="nascimento">Data de Nascimento</string>
+    <string name="email2">E-mail</string>
+    <string name="salvo">Salvar</string>
+    <string name="lembrar">Lembrete</string>
+    <string name="lembrete">Lembrar-me das atividades</string>
+    <string name="barra">Avalie seu progresso</string>
+    <string name="progresso">Básico</string>
+    <string name="progresso2">Especializado</string>
+    <string name="recuperacao">Clique aqui para recuperação de senha</string>
+    <string name="sugestao">Sugestão</string>
+    <string name="empresa">E-mail da empresa: brinsallyinc@gmail.com</string>
+    <string name="brinsally">CopyRight © 2018 Brinsally, Inc</string>
+    <string name="Digite_seu_nome">Digite seu nome</string>
+    <string name="Digite_sua_senha">Digite sua senha</string>
+    <string name="Redigite_sua_senha">Redigite sua senha</string>
+    <string name="Informe_seu_Email">Informe seu E-mail</string>
+    <string name="Li_e_concordo_com_os_termos_de_uso_do_CNAPS">Li e concordo com os termos de uso do CNAPS</string>
+    <string name="Cadastrar">Cadastrar</string>
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/serenity"
+    tools:context=".MENU">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="144dp"
+        android:text="CONHECIMENTOS ESPECÍFICOS"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button"
+        android:layout_centerVertical="true"
+        android:text="CONHECIMENTOS BÁSICOS"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:text="Configurações"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/buttonPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView13"
+        android:layout_toEndOf="@+id/imageView15"
+        android:text="Perfil"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/campus_relief"
+        android:text="MENU INICIAL"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonDesenvolvedor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="54dp"
+        android:text="Conheça os desenvolvedores"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:layout_alignBottom="@+id/button"
+        android:layout_toStartOf="@+id/button"
+        app:srcCompat="@drawable/settingsesse" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignTop="@+id/button"
+        app:srcCompat="@drawable/user" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_alignTop="@+id/button2"
+        android:layout_toStartOf="@+id/buttonPerfil"
+        app:srcCompat="@drawable/scholarship" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="53dp"
+        android:layout_height="51dp"
+        android:layout_alignTop="@+id/buttonDesenvolvedor"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="0dp"
+        android:layout_toStartOf="@+id/button3"
+        app:srcCompat="@drawable/idea" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/houseoutra" />
+
+</RelativeLayout>
